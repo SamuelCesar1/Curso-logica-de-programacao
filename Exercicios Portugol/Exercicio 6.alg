@@ -1,4 +1,4 @@
-algoritmo "Exercicio 1"
+algoritmo "Exercicio"
 //Ex:6)    Faça um programa que leia um número inteiro e mostre o seu antecessor e seu
 //         sucessor.
 var

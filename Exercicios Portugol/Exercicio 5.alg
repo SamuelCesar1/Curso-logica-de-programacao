@@ -1,4 +1,4 @@
-algoritmo "Exercicio 1"
+algoritmo "Exercicio"
 //Ex:5)   Faça um programa que leia as duas notas de um aluno em uma matéria e mostre
 //        na tela a sua média na disciplina.
 var

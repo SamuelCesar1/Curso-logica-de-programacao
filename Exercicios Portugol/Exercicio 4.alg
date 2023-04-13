@@ -1,4 +1,4 @@
-algoritmo "Exercicio 1"
+algoritmo "Exercicio"
 //Ex:4)  Desenvolva um algoritmo que leia dois números inteiros e mostre o somatório
 //       entre eles.
 var

@@ -1,4 +1,4 @@
-algoritmo "Exercicio 1"
+algoritmo "Exercicio"
  //Ex:1)  Crie um programa que leia o nome e o salário de um funcionário, mostrando no
  //       final uma mensagem.
  //       Nome do Funcionário: Maria do Carmo

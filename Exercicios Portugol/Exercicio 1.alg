@@ -1,4 +1,4 @@
-algoritmo "Exercicio 1"
+algoritmo "Exercicio"
  //Ex:1) Escreva um programa que mostre na tela a mensagem "Olá, Mundo!
 var
 
