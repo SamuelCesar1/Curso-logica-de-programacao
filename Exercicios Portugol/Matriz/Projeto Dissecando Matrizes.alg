@@ -16,6 +16,13 @@ Escolha(Op)
            Caso 2 // Diagonal Principal
                 Para I <- 1 ate 4 faca
                      Para J <- 1 ate 4 faca
+                          Escreva(mat[I,J])
+                     FimPara
+                     Escreval()
+                FimPara
+                Escreval()
+                Para I <- 1 ate 4 faca
+                     Para J <- 1 ate 4 faca
                           Se (I = J) entao
                              Escreva(mat[I,J]:3)
                           FimSe
@@ -25,6 +32,13 @@ Escolha(Op)
            Caso 3 //Triangulo superior
                 Para I <- 1 ate 4 faca
                      Para J <- 1 ate 4 faca
+                          Escreva(mat[I,J])
+                     FimPara
+                     Escreval()
+                FimPara
+                Escreval()
+                Para I <- 1 ate 4 faca
+                     Para J <- 1 ate 4 faca
                           Se (I < J) e (I <> J) entao
                              Escreva(mat[I,J]:3)
                           FimSe
@@ -32,13 +46,20 @@ Escolha(Op)
                      Escreval()
                 FimPara
            Caso 4  //Triangulo inferior
-                 Para I <- 1 ate 4 faca
+                Para I <- 1 ate 4 faca
                      Para J <- 1 ate 4 faca
-                          Se (I > J) entao
-                             Escreva(mat[I,J]:3)
-                          FimSe
+                          Escreva(mat[I,J])
                      FimPara
                      Escreval()
+                FimPara
+                Escreval()
+                Para I <- 1 ate 4 faca
+                    Para J <- 1 ate 4 faca
+                         Se (I > J) entao
+                            Escreva(mat[I,J]:3)
+                         FimSe
+                    FimPara
+                    Escreval()
                 FimPara
 FimEscolha
 FimProcedimento
