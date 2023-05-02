@@ -5,11 +5,10 @@ I,J: inteiro
 Procedimento Loyalt()
 Inicio
       Escreval("========================")
-      Escreval("     Jogo Da Velha      ")
+      Escreval("      Jogo Da Velha     ")
       Escreval("========================")
       Escreval()
-      Escreval()
-      Escreval("         |   |          ")
+       Escreval("         |   |          ")
       Escreval("       1 | 2 | 3        ")
       Escreval("     ____|___|____      ")
       Escreval("         |   |          ")
@@ -18,7 +17,6 @@ Inicio
       Escreval("         |   |          ")
       Escreval("       7 | 8 | 9        ")
       Escreval("         |   |          ")
-      
 FimProcedimento
 inicio
       Loyalt()
