@@ -67,7 +67,7 @@ inicio
       Para I <- 1 ate 4 faca
            Para J <- 1 ate 4 faca
                 Escreva("Informe o número da matriz na posição [",I,",",J," ]: ")
-                mat[I,J] <- Randi((9)+1))
+                Leia(mat[I,J])
            FimPara
       FimPara
       LimpaTela
