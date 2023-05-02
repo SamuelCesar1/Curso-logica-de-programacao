@@ -6,20 +6,36 @@ I,J,Op:inteiro
 Procedimento MostrarVet(var Op:inteiro)
 Inicio
 Escolha(Op)
-           Caso 1
+           Caso 1 //Mostre a Matriz
                 Para I <- 1 ate 4 faca
                      Para J <- 1 ate 4 faca
                           Escreva(mat[I,J]:3)
                      FimPara
                      Escreval()
                 FimPara
-           Caso 2
+           Caso 2 // Diagonal Principal
                 Para I <- 1 ate 4 faca
                      Para J <- 1 ate 4 faca
                           Se (I = J) entao
                              Escreva(mat[I,J]:3)
-                          SeNao
-                               Escreva("")
+                          FimSe
+                     FimPara
+                     Escreval()
+                FimPara
+           Caso 3 //Triangulo superior
+                Para I <- 1 ate 4 faca
+                     Para J <- 1 ate 4 faca
+                          Se (I < J) e (I <> J) entao
+                             Escreva(mat[I,J]:3)
+                          FimSe
+                     FimPara
+                     Escreval()
+                FimPara
+           Caso 4  //Triangulo inferior
+                 Para I <- 1 ate 4 faca
+                     Para J <- 1 ate 4 faca
+                          Se (I > J) entao
+                             Escreva(mat[I,J]:3)
                           FimSe
                      FimPara
                      Escreval()
@@ -30,11 +46,12 @@ inicio
       Para I <- 1 ate 4 faca
            Para J <- 1 ate 4 faca
                 Escreva("Informe o número da matriz na posição [",I,",",J," ]: ")
-                Leia(mat[I,J])
+                mat[I,J] <- Randi((9)+1))
            FimPara
       FimPara
       LimpaTela
       Repita
+            LimpaTela
             MostrarVet(Op)
             Escreval("=============================")
             Escreval("|       Menu de Opções      |")
@@ -46,6 +63,5 @@ inicio
             Escreval("[5] Sair")
             Escreva("Opção: ")
             Leia (Op)
-            LimpaTela
       Ate(Op = 5)
 fimalgoritmo
